@@ -171,9 +171,42 @@ body {
 	}
 }
 
+.adventure {
+	position: relative;
+	width: 100%;
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+
+	&__shadow {
+		padding: 1rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, 0.7);
+		text-align: center;
+		color: c.$pure-white;
+	}
+
+	&__text-box {
+		padding: 3rem;
+		width: 60%;
+		font-size: 2rem;
+		border: 3px solid c.$white-smoke;
+	}
+}
+
 @media (max-width: 767px) {
 	.header {
 		background-image: url('../img/jungle-small.jpg');
+	}
+	.adventure {
+		background-image: url('../img/girl-small.jpg');
 	}
 }
 
@@ -192,6 +225,12 @@ body {
 }
 
 @media (min-width: 768px) {
+	.section {
+		&__heading {
+			font-size: 3rem;
+		}
+	}
+
 	.nav {
 		padding: 0;
 
@@ -238,6 +277,15 @@ body {
 	}
 	.header {
 		background-image: url('../img/jungle-big.jpg');
+	}
+	.adventure {
+		background-image: url('../img/girl-big.jpg');
+		height: 400px;
+		&__text-box {
+			padding: 4rem;
+			width: 70%;
+			font-size: 3.5rem;
+		}
 	}
 }
 
