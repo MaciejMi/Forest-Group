@@ -1,10 +1,8 @@
 const mobileNav = document.querySelector('.nav__items--mobile');
 const hamburger = document.querySelector('.hamburger');
 const navItems = document.querySelectorAll('.nav__items--mobile .nav__item');
-const navItemsDesktop = document.querySelectorAll('.nav__items--desktop .nav__item');
 const footerYear = document.querySelector('.footer__year');
 
-const allSectionsScrollspy = document.querySelectorAll('.scrollspy');
 
 hamburger.addEventListener('click', () => {
 	mobileNav.classList.toggle('hidden');

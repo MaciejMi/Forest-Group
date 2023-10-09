@@ -1,5 +1,7 @@
 // Przepraszam, że ten scrollspy taki na ten moment mało "reużywalny", ale nie miałem zbytnio pomysłu na zaprojektowanie swojego, w przyszłości tutaj wrócę i zrobie uniwersalny scrollspy
 
+const navItemsDesktop = document.querySelectorAll('.nav__items--desktop .nav__item');
+const allSectionsScrollspy = document.querySelectorAll('.scrollspy');
 const removeActives = () => {
 	navItemsDesktop[0].classList.remove('active');
 	navItemsDesktop[1].classList.remove('active');
