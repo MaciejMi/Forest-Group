@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Group | Kontakt</title>
+    <meta name="description"
+        content="Skontaktuj się z nami, aby uzyskać więcej informacji o Parku Narodowym Forest Group w Warszawie. Oferujemy niezapomniane atrakcje przyrodnicze i rekreacyjne. Zadzwoń, napisz lub odwiedź nas już dziś!">
+    <link rel="shortcut icon" href="./dist/img/tree.svg" type="image/x-icon">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link href="./dist/css/hamburger.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/css/style.min.css">
+    <!-- Scripts -->
+    <script src="./dist/js/main.min.js" defer></script>
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="wrapper">
+            <a href="./index.html" class="nav__title"><img src="./dist/img/tree.svg" alt="Ikonka drzewka iglastego">
+                Forest</a>
+
+            <div class="nav__items nav__items--mobile hidden">
+                <a href="./index.html" class="nav__item">Home</a>
+                <a href="./index.html#about-us" class="nav__item">O nas</a>
+                <a href="./index.html#offers" class="nav__item">Oferta</a>
+                <a href="#" class="nav__item">Kontakt</a>
+            </div>
+
+            <div class="nav__items  nav__items--desktop">
+                <a href="./index.html" class="nav__item">Home</a>
+                <a href="./index.html#about-us" class="nav__item">O nas</a>
+                <a href="./index.html#offers" class="nav__item">Oferta</a>
+                <a href="#" class="nav__item active">Kontakt</a>
+            </div>
+
+            <button aria-label="This button is uded to drop-down menu" class="hamburger hamburger--spin" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
+    </nav>
+    <section class="section contact">
+        <h2 class="section__heading">Kontakt</h2>
+        <div class="wrapper">
+            <form class="contact__form">
+                <div class="contact__form-inputs">
+                    <div>
+                        <label for="name">Imię i Nazwisko:</label>
+                        <input name="name" type=" text" placeholder="Imię i nazwisko">
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input for="email" type="email" placeholder="Email">
+                    </div>
+                </div>
+                <label for="message">Wiadomość:</label>
+                <textarea aria-label="This is a textarea for your message" cols="30" rows="10"
+                    name="message"></textarea>
+                <button type="submit">Wyślij</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__boxes">
+            <a href="./index.html" class="footer__title"> <img src="./dist/img/tree.svg"
+                    alt="Ikonka drzewka iglastego">Forest</a>
+
+            <div class="footer__links">
+                <p>O nas</p>
+                <a href="#">Historia</a>
+                <a href="#">Parki</a>
+                <a href="#">Opinie</a>
+            </div>
+
+            <div class="footer__links">
+                <p>Nasza firma</p>
+                <a href="#">Praca</a>
+                <a href="#">Kadry</a>
+                <a href="#">Zarząd</a>
+            </div>
+
+            <div class="footer__links">
+                <p>Dokumenty</p>
+                <a href="#">Wnioski</a>
+                <a href="#">Rezerwacje</a>
+            </div>
+        </div>
+        <p class="footer__bottom">&copy; <span class="footer__year"></span> Forest Group Company</p>
+    </footer>
+</body>
+
+</html>
