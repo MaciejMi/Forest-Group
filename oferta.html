@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forest Group | Strona Główna</title>
+    <title>Forest Group | Oferta</title>
     <meta name="description"
-        content="Jakie atrakcje przyrodnicze kryje Park Narodowy 'Forest Group' w Warszawie? Odkryj bogactwo natury w samym sercu stolicy!">
+        content="Zapoznaj się z naszą podstroną Parku Narodowego Forest Group w Warszawie. Dowiedz się więcej o naszych atrakcjach, trasach turystycznych i przyrodniczych cudach, które oferujemy. Przyłącz się do naszej społeczności miłośników przyrody i odkryj niezwykłe miejsce w sercu stolicy.">
     <link rel="shortcut icon" href="./dist/img/tree.svg" type="image/x-icon">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,19 +22,20 @@
 <body>
     <nav class="nav">
         <div class="wrapper">
-            <a href="#" class="nav__title"><img src="./dist/img/tree.svg" alt="Ikonka drzewka iglastego"> Forest</a>
+            <a href="./index.html" class="nav__title"><img src="./dist/img/tree.svg" alt="Ikonka drzewka iglastego">
+                Forest</a>
 
             <div class="nav__items nav__items--mobile hidden">
-                <a href="#" class="nav__item">Home</a>
-                <a href="#about-us" class="nav__item">O nas</a>
-                <a href="#offers" class="nav__item">Oferta</a>
+                <a href="./index.html" class="nav__item">Home</a>
+                <a href="./index.html#about-us" class="nav__item">O nas</a>
+                <a href="./index.html#offers" class="nav__item">Oferta</a>
                 <a href="#" class="nav__item">Kontakt</a>
             </div>
 
             <div class="nav__items  nav__items--desktop">
-                <a href="#" class="nav__item">Home</a>
-                <a href="#about-us" class="nav__item">O nas</a>
-                <a href="#offers" class="nav__item">Oferta</a>
+                <a href="./index.html" class="nav__item">Home</a>
+                <a href="./index.html#about-us" class="nav__item">O nas</a>
+                <a href="./index.html#offers" class="nav__item">Oferta</a>
                 <a href="#" class="nav__item">Kontakt</a>
             </div>
 
@@ -45,51 +46,6 @@
             </button>
         </div>
     </nav>
-    <header class="header scrollspy" id="home">
-        <div class="header__shadow">
-            <div class="wrapper">
-                <div class="header__text-box">
-                    <h1><span>Forest Group</span>Najpiękniejszy park w Twojej okolicy!
-                    </h1>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <section class="section about-us scrollspy" id="about-us">
-        <h2 class="section__heading">
-            O nas
-        </h2>
-        <div class="wrapper">
-            <div class="about-us__content">
-                <img src="./dist/img/waters-small.jpg"
-                    alt="Skalna wysepka z drzewkiem po środku jeziora otoczonego przez gęsty las" class="about-us__img">
-                <div class="about-us__text-box">
-                    <h3>Niezapomniane przygody
-                    </h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga sint illum voluptatum, totam
-                        obcaecati
-                        ipsam mollitia neque asperiores, modi, quae autem tempora! Quibusdam odio eveniet ipsa nesciunt
-                        mollitia
-                        totam qui quod dolor, architecto accusamus beatae ipsum inventore? Mollitia ipsam cupiditate
-                        assumenda
-                        natus alias quisquam, in aut expedita earum nihil aliquam ex magnam, aliquid quo porro vel
-                        exercitationem ad soluta! Eveniet illo dolorem tempora eum ipsam quis consequuntur, repellendus
-                        dolore
-                        aspernatur assumenda dolor eius voluptatibus numquam aliquam ducimus doloremque quo molestiae.
-                        Hic
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section adventure">
-        <div class="adventure__shadow">
-            <p class="adventure__text-box">Przygoda dla całej rodziny</p>
-        </div>
-    </section>
-
     <section class="section offers scrollspy" id="offers">
         <h2 class="section__heading">
             Oferta
@@ -127,7 +83,7 @@
                 <p class="card__list card__list--gray"><img src="./dist/img/minus.svg" alt="Minus">opcja poza pakietem
                 </p>
 
-                <a href="#" class="card__btn card__btn--special">Wybierz</a>
+                <a href="#" class="card__btn">Wybierz</a>
 
             </div>
             <div class="card">
@@ -143,14 +99,27 @@
 
                 <a href="#" class="card__btn">Wybierz</a>
             </div>
+            <div class="card card--special">
+                <p class="card__title">LUX</p>
+                <p class="card__price">$999</p>
+
+                <p class="card__list"><img src="./dist/img/blue-check.svg" alt="Niebieski ptaszek"> opcja w pakiecie</p>
+                <p class="card__list"><img src="./dist/img/blue-check.svg" alt="Niebieski ptaszek"> opcja w pakiecie</p>
+                <p class="card__list"><img src="./dist/img/blue-check.svg" alt="Niebieski ptaszek"> opcja w pakiecie</p>
+                <p class="card__list"><img src="./dist/img/blue-check.svg" alt="Niebieski ptaszek"> opcja w pakiecie</p>
+                <p class="card__list"><img src="./dist/img/blue-check.svg" alt="Niebieski ptaszek"> opcja w pakiecie</p>
+
+
+                <a href="#" class="card__btn">Wybierz</a>
+            </div>
         </div>
 
-        <a class="offers__other-offers" href="./oferta.html">Sprawdź też inne oferty...</a>
 
     </section>
     <footer class="footer">
         <div class="footer__boxes">
-            <a href="#" class="footer__title"> <img src="./dist/img/tree.svg" alt="Ikonka drzewka iglastego">Forest</a>
+            <a href="./index.html" class="footer__title"> <img src="./dist/img/tree.svg"
+                    alt="Ikonka drzewka iglastego">Forest</a>
 
             <div class="footer__links">
                 <p>O nas</p>
@@ -174,7 +143,6 @@
         </div>
         <p class="footer__bottom">&copy; <span class="footer__year"></span> Forest Group Company</p>
     </footer>
-
 </body>
 
 </html>
