@@ -24,6 +24,16 @@ body {
 	width: 100%;
 }
 
+.section {
+	padding: 50px 20px;
+	&__heading {
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 2.5rem;
+		font-weight: 400;
+	}
+}
+
 .nav {
 	position: sticky;
 	top: 0;
@@ -102,7 +112,7 @@ body {
 .header {
 	position: relative;
 	max-height: 500px;
-	height: 40vh;
+	height: 400px;
 	width: 100%;
 	background-size: cover;
 	background-position: center;
@@ -135,6 +145,32 @@ body {
 	}
 }
 
+.about-us {
+	&__content {
+		margin-top: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 15px;
+	}
+
+	&__text-box {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		text-align: center;
+	}
+
+	p {
+		line-height: 30px;
+	}
+
+	&__img {
+		width: 100%;
+		max-width: 500px;
+	}
+}
+
 @media (max-width: 767px) {
 	.header {
 		background-image: url('../img/jungle-small.jpg');
@@ -143,7 +179,7 @@ body {
 
 @media (min-width: 576px) {
 	.header {
-		height: 50vh;
+		height: 500px;
 		&__text-box {
 			h1 {
 				font-size: 4rem;
@@ -207,7 +243,7 @@ body {
 
 @media (min-width: 992px) {
 	.header {
-		height: 60vh;
+		height: 600px;
 		background-image: url('../img/jungle-large.jpg');
 		&__text-box {
 			h1 {
@@ -216,6 +252,21 @@ body {
 					font-size: 2.8rem;
 				}
 			}
+		}
+	}
+	.about-us {
+		&__content {
+			margin-top: 60px;
+			flex-direction: row;
+			gap: 40px;
+		}
+
+		p {
+			text-align: left;
+		}
+
+		&__img {
+			width: 100%;
 		}
 	}
 }
