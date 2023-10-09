@@ -34,6 +34,7 @@ body {
 	z-index: 100;
 	background-color: c.$pure-white;
 	&__title {
+		position: relative;
 		display: flex;
 		align-items: center;
 		gap: 5px;
@@ -79,6 +80,10 @@ body {
 		text-decoration: none;
 		color: c.$black;
 		font-size: 2rem;
+		transition: color 0.3s;
+		&:hover {
+			color: c.$green;
+		}
 	}
 }
 .hamburger {
@@ -91,5 +96,52 @@ body {
 	&-inner::before,
 	&-inner::after {
 		background-color: c.$gray;
+	}
+}
+
+@media (min-width: 768px) {
+	.nav {
+		padding: 0;
+
+		&__title {
+			font-size: 3rem;
+			img {
+				width: 40px;
+				height: 40px;
+			}
+		}
+
+		.wrapper {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		&__items {
+			&--desktop {
+				display: flex;
+			}
+		}
+
+		&__item {
+			display: flex;
+			align-items: center;
+			padding: 30px 20px;
+			font-size: 1.7rem;
+			transition: background-color 0.3s, color 0.3s;
+			&:hover {
+				background-color: c.$black;
+				color: c.$pure-white;
+			}
+		}
+
+		.active {
+			background-color: c.$black;
+			color: c.$pure-white;
+		}
+
+		.hamburger {
+			display: none;
+		}
 	}
 }

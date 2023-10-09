@@ -20,27 +20,29 @@
 
 <body>
     <nav class="nav">
-        <a href="#" class="nav__title"><img src="./dist/img/tree.svg" alt="Ikonka drzewka iglastego"> Forest</a>
+        <div class="wrapper">
+            <a href="#" class="nav__title"><img src="./dist/img/tree.svg" alt="Ikonka drzewka iglastego"> Forest</a>
 
-        <div class="nav__items nav__items--mobile hidden">
-            <a href="#" class="nav__item">Home</a>
-            <a href="#" class="nav__item">O nas</a>
-            <a href="#" class="nav__item">Oferta</a>
-            <a href="#" class="nav__item">Kontakt</a>
+            <div class="nav__items nav__items--mobile hidden">
+                <a href="#" class="nav__item">Home</a>
+                <a href="#" class="nav__item">O nas</a>
+                <a href="#" class="nav__item">Oferta</a>
+                <a href="#" class="nav__item">Kontakt</a>
+            </div>
+
+            <div class="nav__items  nav__items--desktop">
+                <a href="#" class="nav__item active">Home</a>
+                <a href="#" class="nav__item">O nas</a>
+                <a href="#" class="nav__item">Oferta</a>
+                <a href="#" class="nav__item">Kontakt</a>
+            </div>
+
+            <button aria-label="This button is uded to drop-down menu" class="hamburger hamburger--spin" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
         </div>
-
-        <div class="nav__items  nav__items--desktop">
-            <a href="#" class="nav__item">Home</a>
-            <a href="#" class="nav__item">O nas</a>
-            <a href="#" class="nav__item">Oferta</a>
-            <a href="#" class="nav__item">Kontakt</a>
-        </div>
-
-        <button class="hamburger hamburger--spin" type="button">
-            <span class="hamburger-box">
-                <span class="hamburger-inner"></span>
-            </span>
-        </button>
     </nav>
 </body>
 
