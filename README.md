@@ -7,7 +7,7 @@ Final project at the end of the 4th part of the website creation course.
 
 ## Run Locally
 
-To run Sorter locally, run this command on your git bash:
+To run Forest Group locally, run this command on your git bash:
 
 Linux and macOS:
 ```bash
