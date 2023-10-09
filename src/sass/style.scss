@@ -292,6 +292,8 @@ body {
 		align-items: center;
 		gap: 10px;
 		font-size: 3rem;
+		text-decoration: none;
+		color: c.$black;
 	}
 
 	&__links {
@@ -418,6 +420,7 @@ body {
 
 	.footer {
 		padding: 10rem 6rem;
+
 		&__boxes {
 			gap: 12rem;
 		}
